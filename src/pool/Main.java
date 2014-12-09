@@ -4,6 +4,19 @@
 //     Copyright (C) 2014  Andrew MacCuaig
 //     https://github.com/st-andrew/Hockey-Stats
 //
+//     This program is free software: you can redistribute it and/or modify
+//     it under the terms of the GNU General Public License as published by
+//     the Free Software Foundation, either version 3 of the License, or
+//     (at your option) any later version.
+//
+//     This program is distributed in the hope that it will be useful,
+//     but WITHOUT ANY WARRANTY; without even the implied warranty of
+//     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+//     GNU General Public License for more details.
+//
+//     You should have received a copy of the GNU General Public License
+//     along with this program.  If not, see <http://www.gnu.org/licenses/>.
+//
 //==============================================================================
 
 package pool;
@@ -91,7 +104,7 @@ public class Main extends Application {
         try {
             FXMLLoader loader = new FXMLLoader();
             loader.setLocation(Main.class.getResource("view/ui.fxml"));
-            rootLayout = (BorderPane) loader.load();
+            rootLayout = loader.load();
 
             // Give the controller access to the main app.
             UIController uiController = loader.getController();
@@ -109,7 +122,7 @@ public class Main extends Application {
             // Load person overview.
             FXMLLoader loader = new FXMLLoader();
             loader.setLocation(Main.class.getResource("view/playerView.fxml"));
-            BorderPane playerView = (BorderPane) loader.load();
+            BorderPane playerView = loader.load();
 
             rootLayout.setCenter(playerView);
 
@@ -127,7 +140,7 @@ public class Main extends Application {
             // Load person overview.
             FXMLLoader loader = new FXMLLoader();
             loader.setLocation(Main.class.getResource("view/teamView.fxml"));
-            BorderPane teamView = (BorderPane) loader.load();
+            BorderPane teamView = loader.load();
 
             rootLayout.setCenter(teamView);
 
