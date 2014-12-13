@@ -1,6 +1,8 @@
 Hockey-Stats
 ============
 
+[![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/st-andrew/Hockey-Stats?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 A simple Java FX application that I created for a database class I took in Fall 2014.
 
 The database was generated from another project I made that scrapes the NHL.com website.
