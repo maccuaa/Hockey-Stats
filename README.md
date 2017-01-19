@@ -4,7 +4,6 @@ Hockey-Stats
 A simple Java FX application that I created for a database class I took in Fall 2014.
 
 The database was generated from another project I made that scrapes the NHL.com website.
-For legal reasons, the source code for that project is not publicly available.
 
 ### Requirements
 
